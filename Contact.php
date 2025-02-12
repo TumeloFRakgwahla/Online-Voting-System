@@ -35,6 +35,6 @@
         
     </footer>
 
-    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://kit.fontawesome.com/097e064a27.js" crossorigin="anonymous"></script>
 </body>
 </html>
