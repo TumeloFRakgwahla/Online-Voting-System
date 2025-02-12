@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #666;
+    text-align: center;
+    z-index: 1000;
+    color: white;
+}
+
+h1{
+    display: flex;
+    padding: 10px 20px;
+  }
+
+.main{
+    padding: 100px 100px;
+}
+
+.main h2{
+     
+    font-size: 50px;
+    text-align: center;
+}
+
+
+h1 {
+    display: flex;
+    padding: 10px 20px;
+}
+
+.navmenu {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.dropbtn {
+    background-color: rgb(71, 69, 69);
+    color: white;
+    padding: 13px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: auto;
+    max-width: 100%; 
+    white-space: nowrap;
+    margin-right: 0px; /* Added margin to create space between the button and logout */
+}
+
+.logout-btn {
+    background-color: rgb(71, 69, 69);
+    color: white;
+    padding: 21px 50px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logout-btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.logout-btn:hover {
+    background-color: #555;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    margin-right: 10px; /* Space between name and image */
+    white-space: nowrap; /* Prevents the name from wrapping */
+}
+
+.user-pic {
+    width: 45px;
+    border-radius: 50%;
+    height: 34px;
+}
+
+  /* ballot */
+
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .position {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: grey;
+  }
+  
+  .candidate-label {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between elements */
+    font-size: 20px;
+  }
+  
+  .candidate-logo,
+  .candidate-abbr,
+  .candidate-party {
+    margin-right: 10px; /* Additional space if needed */
+  }
+  
+  .candidate-photo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  
+  .votingbtn{
+  background-color: gray; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 45%;
+  cursor: pointer;
+  }
+
+  .text-center{
+    padding: 20px;
+    background-color: #f7a7a3;
+    color: rgb(231, 12, 12);
+    text-align: center;
+  }
+
+  .alertSuccess{
+    padding: 20px;
+    background-color: #a8f0c6;
+    color: rgb(17, 117, 8);
+    text-align: center;
+  }
+
+  .container{
+    padding: 10px 0;
+  }
+  
+  .alert_box{
+      position: absolute;
+      top: 20%;
+      left: 50%;
+      transform: translate(-50% , -50%);
+  }
+    
+  .background{
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.5);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.3s ease;
+      z-index: 1000;
+  }
+  
+  .alert_box{
+      padding: 30px;
+      display: flex;
+      background: #fff;
+      color: black;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      max-width: 500px;
+      width: 100%;
+      z-index: 2000;
+      opacity: 0;
+      pointer-events: none;
+      transform: translate(-50% , -50%) scale(0.97);
+      transition: all 0.3s ease;
+  }
+  
+  #check:checked ~ .alert_box{
+      opacity: 1;
+      pointer-events: auto;
+      transform: translate(-50% , -50%) scale(1);
+  }
+  
+  #check:checked ~ .background{
+      opacity: 1;
+      pointer-events: auto;
+  }
+  
+  #check{
+      display: none;
+  }
+  
+  .alert_box header{
+      font-size: 35px;
+      font-weight: 500;
+      margin: 10px 0;
+  }
+  
+  .alert_box p{
+      font-size: 20px;
+  }
+
+  .viewbtn{
+    color: white;
+    background-color: blue;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+  }
+
+  .viewbtn:hover{
+    background-color: rgba(49, 49, 189, 0.63);
+  }
+  
+  .close_button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 18px;
+      cursor: pointer;
+    }

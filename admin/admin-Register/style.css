@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../Images/images.jpeg');
+    background-position: center;
+}
+
+.Admin_form{
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 700px;
+    border-radius: 15px;
+    padding: 30px 40px;
+    background-color: white; 
+}
+
+.Admin_form h2{
+    font-size: 45px;
+    text-align: center;
+}
+
+.Admin_form .input-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+}
+
+.input-box input{
+    margin: 0;
+    padding: 10px;
+    width: 70%;
+    height: 20%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 15px;
+    color: black;
+}
+
+.Admin_form .input-file{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+}
+
+.input-file input{
+    padding: 0px 30px;
+}
+
+.Admin_form .SignInbtn{
+    margin-left: 100px;
+    width: 70%;
+    height: 45px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.error {color: #FF0000;}
+
+.alertDanger{
+    padding: 20px;
+    background-color: #f7a7a3;
+    color: rgb(231, 12, 12);
+    text-align: center;
+  }
+
+  .alertSuccess{
+    padding: 20px;
+    background-color: #a8f0c6;
+    color: rgb(17, 117, 8);
+    text-align: center;
+  }

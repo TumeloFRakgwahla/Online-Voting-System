@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #666;
+    text-align: center;
+    z-index: 1000;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.sidenav {
+    width:250px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: black;
+    padding: 60px 0px;
+}
+
+.header{
+    color:#292828;
+    text-align: center;
+    background-color: #818181;
+    list-style-type: none;
+    height: 40px;
+    padding: 10px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+/* Active link styling */
+.sidenav .active a {
+    background-color: #555; /* Highlighted background color */
+    color: white; /* Text color for active link */
+}
+
+h1{
+    display: flex;
+    padding: 10px 20px;
+}
+
+.main{
+    margin-left: 200px;
+    padding: 100px 70px;
+    text-align: center;
+    position:inherit;
+}
+
+
+.totle-container {
+    display: flex;
+    flex-wrap: wrap; /* Ensures the items wrap to the next line on smaller screens */
+    gap: 20px; /* Adds space between flex items */
+}
+
+.project {
+    flex: 1 1 calc(50% - 40px); /* Flex-grow, flex-shrink, and base width with spacing adjustment */
+    max-width: calc(26% - 40px); /* Ensures that the width doesn't exceed half of the container's width */
+    height: 200px;
+    margin: 20px 0; /* Removed the margin that was initially 20px */
+    border-radius: 15px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column; /* Aligns footer to the bottom */
+    justify-content: space-between; /* Ensures the content is spaced out */
+}
+
+.inner {
+    padding: 30px 15px;
+    color: white;
+    flex-grow: 1; /* Allows .inner to take up available space */
+}
+
+.inner h3 {
+    font-size: 40px;
+}
+
+.inner p {
+    font-size: 20px;
+}
+
+.small-box-footer {
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #555;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    text-align: center; /* Centers the text horizontally */
+    width: 100%; /* Ensures the footer takes the full width of the .project */
+    box-sizing: border-box; /* Ensures padding doesn't affect the width */
+}
+
+.small-box-footer:hover {
+    background-color: #818181;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: rgb(71, 69, 69);
+    color: white;
+    padding: 13px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    width: auto; 
+    max-width: 100%; 
+    white-space: nowrap; 
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-name {
+    margin-right: 10px; /* Space between name and image */
+    white-space: nowrap; /* Prevents the name from wrapping */
+}
+
+.dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 62px;
+    right: 0;
+    width: 300px;
+    background-color: grey;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content a:last-child {
+    border-bottom: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.show {
+    display: block;
+}
+
+.user-pic {
+    width: 45px;
+    border-radius: 50%;
+    height: 34px;
+}
+
+.user-header{
+    height: 250px;
+    padding: 60px;
+}
+
+.image-circle{
+    width: 100px;
+    border-radius: 50%;
+    height: 80px;
+}
+ 
+.user-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+
+/* Main Section Styles */
+.tally {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tally h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #004080;
+}
+
+.tally h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #004080;
+    padding-bottom: 5px;
+}
+
+/* List Styles */
+.tally ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tally li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tally li img.candidate-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.tally li span {
+    flex: 1;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.tally li span:last-child {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Message Styles */
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+}

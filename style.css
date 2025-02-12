@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(Images/images.jpeg);
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    padding: 20px 0;
+    background-color: rgb(38, 38, 66);
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul a:hover{
+    color:white;
+}
+
+nav .registeringbtn{
+   
+    background-color: white;
+    padding: 10px 50px;
+    margin: -10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 250px;
+    height: 200px;
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(38, 38, 66);
+    border-radius: 20px;
+}
+
+.home_container h2{
+    font-size: 50px;
+    color: white;
+}
+
+.home_container p{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+
+
+.votingbtn:link, .votingbtn:visited {
+    background-color: white;
+    padding: 14px 50px;
+    margin-left: 90px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+
+
+

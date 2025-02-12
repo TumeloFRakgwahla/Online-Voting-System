@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #666;
+    text-align: center;
+    z-index: 1000;
+    color: white;
+}
+
+.sidenav {
+    width:250px;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: black;
+    padding: 60px 0px;
+}
+
+.header{
+    color:#292828;
+    text-align: center;
+    background-color: #818181;
+    list-style-type: none;
+    height: 40px;
+    padding: 10px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Active link styling */
+.sidenav .active a {
+  background-color: #555; /* Highlighted background color */
+  color: white; /* Text color for active link */
+}
+
+h1{
+    display: flex;
+    padding: 10px 20px;
+  }
+
+.main{
+    
+    margin-left: 160px;
+    padding: 100px 100px;
+}
+
+.main h2{
+    text-align: center;
+}
+
+.totle-container{
+  display: flex;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: rgb(71, 69, 69);
+  color: white;
+  padding: 13px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  width: auto; 
+  max-width: 100%; 
+  white-space: nowrap; 
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  margin-right: 10px; /* Space between name and image */
+  white-space: nowrap; /* Prevents the name from wrapping */
+}
+
+.dropdown ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 62px;
+  right: 0;
+  width: 300px;
+  background-color: grey;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid #ddd;
+}
+
+.dropdown-content a:last-child {
+  border-bottom: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.show {
+  display: block;
+}
+
+.user-pic {
+  width: 45px;
+  border-radius: 50%;
+  height: 34px;
+}
+
+.user-header{
+  height: 250px;
+  padding: 60px;
+}
+
+.image-circle{
+  width: 100px;
+  border-radius: 50%;
+  height: 80px;
+}
+
+.user-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.alert_box label{
+    display:inline-block;
+    width: 140px;
+    text-align: right;
+}
+
+.alert_box input{
+    padding: 10px 10px;
+    margin: 10px 50px;
+    width: 50%;
+}
+
+.btn{
+  display: inline-flex;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 400;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: #555;
+  transition: all 0.3s ease;
+}  
+
+.container{
+  padding: 10px 0;
+}
+
+.alert_box{
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50% , -50%);
+}
+
+.alert_box{
+    padding: 20px;
+    background: grey;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    height: 200px;
+    transform: translate(-50% , -50%) scale(0.97);
+    transition: all 0.3s ease;
+}
+
+.btns{
+    display: flex;
+}
+

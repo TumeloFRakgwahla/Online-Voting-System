@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Images/images.jpeg);
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    justify-content: right;
+    padding: 20px 0;
+    background-color: rgb(38, 38, 66);
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ul a:hover{
+    color:white;
+}
+
+nav .registeringbtn{
+   
+    background-color: white;
+    padding: 10px 50px;
+    margin: -10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Main Section Styles */
+.tally {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(38, 38, 66);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tally h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.tally h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    border-bottom: 2px solid #004080;
+    padding-bottom: 5px;
+}
+
+/* List Styles */
+.tally ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0;
+}
+
+.tally li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tally li img.candidate-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-pic{
+    height: 60px;
+}
+
+.tally li span {
+    flex: 1;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 10px;
+    color: white;
+}
+
+.tally li span:last-child {
+    font-weight: bold;
+    text-align: right;
+}
+
+/* Message Styles */
+p {
+    text-align: center;
+    font-size: 18px;
+    color: #888;
+}
+
+
+
