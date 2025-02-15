@@ -24,11 +24,19 @@
     <div class="About">
         <h2>About Us</h2>
         <p class="Aboutinfor">
+        Our Voting System is designed to provide all South Africans with a secure, 
+        efficient, and transparent way to vote. Built for businesses and organizations, 
+        it ensures fair decision-making with easy access, real-time tracking, and strong 
+        security. Every vote counts in shaping a better future.
         </p>
         <h2>Address</h2>
         <p> 
                     
-                     <Address>52 Kerk St, Polokwane Central, Polokwane, 0700</Address>
+                     <Address>
+                        Company Name (Pty) Ltd, 123 Main Street
+                        Sandton, Johannesburg, 2196
+                        Gauteng, South Africa
+                    </Address>
             
         </p>
     </div>
