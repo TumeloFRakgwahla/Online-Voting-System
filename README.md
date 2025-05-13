@@ -78,11 +78,11 @@ Include screenshots of:
 - Voting form
 ![Alt text](Images/Voting%20Form.png)
 - Admin login
-![Alt text](images/Admin%20Login%20page.png)
+![Alt text](Images/Admin%20Login%20page.png)
 - Admin dashboard
-![Alt text](images/Admin%20Home%20page.png)
+![Alt text](Images/Admin%20Home%20page.png)
 - Results page
-![Alt text](images/Result%20page.png)
+![Alt text](Images/Result%20page.png)
 
 ## ✅ Future Improvements
 
