@@ -72,17 +72,17 @@ An online voting platform built to allow voters to log in and securely cast thei
 
 Include screenshots of:
 - Voter login
- ![Alt text](images/Login%20page.png)
+ ![Alt text](Images/Login%20page.png)
 - Voter Registration
-![Alt text](images/Regestertion%20page%20.png)
+![Alt text](Images/Regestertion%20page%20.png)
 - Voting form
-![Alt text](images/Voting%20Form.png)
+![Alt text](Images/Voting%20Form.png)
 - Admin login
-![Alt text](images/Admin%20Login%20page.png)
+![Alt text](Images/Admin%20Login%20page.png)
 - Admin dashboard
-![Alt text](images/Admin%20Home%20page.png)
+![Alt text](Images/Admin%20Home%20page.png)
 - Results page
-![Alt text](images/Result%20page.png)
+![Alt text](Images/Result%20page.png)
 
 ## ✅ Future Improvements
 
