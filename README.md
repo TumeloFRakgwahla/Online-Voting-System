@@ -1,6 +1,7 @@
 # 🗳️ Online Voting System
 
-An online voting platform built to allow voters to log in and securely cast their votes in different elections. Ideal for educational or small-scale use.
+A simple and beginner-friendly PHP web application that allows registered users to vote in an election. It includes voter authentication, vote tracking, and a feature to prevent multiple votes. Ideal for learning basic web development and PHP logic.
+
 
 ---
 
