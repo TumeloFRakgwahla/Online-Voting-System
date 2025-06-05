@@ -1,8 +1,8 @@
 services:
   - type: web
     name: online-voting-system
-    env: php
+    env: node
+    branch: master
     plan: free
     buildCommand: ""
     startCommand: ""
-    rootDir: .
