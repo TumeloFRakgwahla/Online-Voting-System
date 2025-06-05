@@ -2,7 +2,6 @@ services:
   - type: web
     name: online-voting-system
     env: static
-    plan: free
     buildCommand: ""
     startCommand: ""
     rootDir: .
