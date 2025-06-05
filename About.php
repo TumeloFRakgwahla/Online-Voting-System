@@ -34,8 +34,8 @@
                     
                      <Address>
                         Company Name (Pty) Ltd, 123 Main Street
-                        Sandton, Johannesburg, 2196
-                        Gauteng, South Africa
+                        Bendor, Polokwane, 2196
+                        Limpopo, South Africa
                     </Address>
             
         </p>
