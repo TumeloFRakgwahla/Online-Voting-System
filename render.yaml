@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: Online Voting system
+    name: online-voting-system
     env: php
     plan: free
     buildCommand: ""
