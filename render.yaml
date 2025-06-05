@@ -1,7 +1,7 @@
 services:
   - type: web
     name: online-voting-system
-    env: node
+    env: docker
     branch: master
     plan: free
     buildCommand: ""
