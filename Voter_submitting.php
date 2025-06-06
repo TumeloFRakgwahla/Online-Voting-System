@@ -5,7 +5,7 @@ require 'Voting_fatch.php';
 // submit_vote.php
 
 // Connect to the database
-$conn = new mysqli("localhost", "root", "", "online_voting_system");
+$conn = new mysqli('sql7.freesqldatabase.com', 'sql7783315', 'IzRkQwA8pR', 'sql7783315', 3306);
 
 // Check connection
 if ($conn->connect_error) {
