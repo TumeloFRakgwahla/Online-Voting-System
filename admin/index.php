@@ -1,4 +1,4 @@
-<?php require 'php/AdminLogin.php';
+<?php require 'php/Adminlogin.php';
 ?>
 
 <!DOCTYPE html>
