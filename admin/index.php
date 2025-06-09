@@ -1,4 +1,5 @@
-<?php require 'php/Adminlogin.php';
+<?php 
+require 'php/Adminlogin.php';
 ?>
 
 <!DOCTYPE html>
@@ -7,6 +8,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+       function preventback(){window.history.forward()};
+       setTimeout("preventBack()", 0);
+       window.onunload=function(){null;}
+    </script>
     <title>Admin</title>
 </head>
 <body>
