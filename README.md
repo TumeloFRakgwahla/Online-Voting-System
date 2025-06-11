@@ -2,6 +2,9 @@
 
 A simple and beginner-friendly PHP web application that allows registered users to vote in an election without the need to stand in long queues. It features voter authentication, vote tracking, and prevents multiple voting. Ideal for learning basic web development, PHP logic, and building real-world solutions.
 
+## 🌐 Live Preview
+
+> https://online-voting-system-qt4m.onrender.com/
 ---
 
 ## 📚 Table of Contents
