@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="css/About.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <section>
@@ -16,7 +17,7 @@
             <a href="contact.php"><i class="fas fa-phone"></i></a>
             <a href="Registering.php" class="register-icon">Register</a>
         </div>
-        
+
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
