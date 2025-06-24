@@ -49,104 +49,60 @@ nav .registeringbtn{
     border-radius: 5px;
 }
 
-/* Main Section Styles */
-.tally {
-    max-width: 80%;
-    margin: 20px auto;
-    background-color: rgb(38, 38, 66);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.tally h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: white;
-}
-
-.tally h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    color: white;
-    border-bottom: 2px solid #004080;
-    padding-bottom: 5px;
-}
-
-/* List Styles */
-.tally ul {
-    list-style-type: none;
-    padding: 0px;
-    margin: 0;
-}
-
-.tally li {
+/* Home Box */
+.home{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 250px auto 0 auto;
+    height: auto;
+    width: 500px;
     padding: 10px;
-    border-bottom: 1px solid #ddd;
+    background-color: rgb(38, 38, 66);
+    border-radius: 20px;
+    text-align: center;
 }
 
-.tally li img.candidate-photo {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 10px;
-}
-
-.user-pic{
-    height: 60px;
-}
-
-.tally li span {
-    flex: 1;
-    text-align: left;
-    font-size: 16px;
-    margin-left: 10px;
+.home_container h2{
+    font-size: 50px;
     color: white;
 }
 
-.tally li span:last-child {
-    font-weight: bold;
-    text-align: right;
+.home_container p{
+    font-size: 20px;
+    color: white;
+    padding: 10px;
 }
 
-/* Message Styles */
-p {
+
+.votingbtn:link, .votingbtn:visited {
+    background-color: white;
+    padding: 14px 50px;
     text-align: center;
-    font-size: 18px;
-    color: #888;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
 }
-
+  
 /* ----------- MEDIA QUERIES ----------- */
 .mobile-top-icons {
     display: none;
 }
+
 @media only screen and (max-width: 1200px){
-    .tally {
-        max-width: 90%;
-        margin: 20px auto;
-        padding: 20px;
-    }
+ .home {
+    width: 80%;
+    margin-top: 150px;
+  }
 
-    .tally h2 {
-        font-size: 28px;
-    }
+  .home_container h2 {
+    font-size: 40px;
+  }
 
-    .tally li span {
-        font-size: 15px;
-    }
-
-    .nav ul {
-        gap: 5px;
-    }
-
-    .registeringbtn {
-        padding: 8px 20px;
-    }
+  .votingbtn {
+    padding: 12px 40px;
+  }
 }
-
 
 @media only screen and (max-width: 768px){
     .mobile-top-icons {
@@ -197,5 +153,36 @@ p {
   nav {
     display: none; /* or change layout if you prefer */
   }
-  
+
+  .home {
+    width: 90%;
+    margin-top: 120px;
+    padding: 20px 10px;
+  }
+
+  .home_container h2 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .home_container p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .votingbtn {
+    margin-left: 0;
+    padding: 10px 25px;
+    font-size: 14px;
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+
+  .registeringbtn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
 }
+
+
+

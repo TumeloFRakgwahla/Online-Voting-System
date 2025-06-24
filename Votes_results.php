@@ -10,9 +10,19 @@ require 'admin/php/Tally_votes.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Results</title>
     <link rel="stylesheet" href="css/Votes_results.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
     <section>
+        <!-- Mobile Top Icons (only visible on mobile) -->
+        <div class="mobile-top-icons">
+            <a href="index.php"><i class="fas fa-home"></i></a>
+            <a href="Votes_results.php"><i class="fas fa-vote-yea"></i></a>
+            <a href="About.php"><i class="fa fa-users"></i></a>
+            <a href="contact.php"><i class="fas fa-phone"></i></a>
+            <a href="Registering.php" class="register-icon">Register</a>
+        </div>
+
         <nav>
             <ul>
                 <li><a href="index.php">Home</a></li>
