@@ -6,8 +6,9 @@ if(!isset($_SESSION['username'])){
 
 $user = $_SESSION['username'];
 
-$link =mysqli_connect('sql7.freesqldatabase.com', 'sql7783315', 'IzRkQwA8pR', 'sql7783315', 3306);
- if($link===false){
+//$link =mysqli_connect('sql7.freesqldatabase.com', 'sql7783315', 'IzRkQwA8pR', 'sql7783315', 3306);
+$link =mysqli_connect("localhost","root","","online_voting_system");
+if($link===false){
     die("Error: COULD NOT CONNECT" . mysqli_connect_error());
  }
 
