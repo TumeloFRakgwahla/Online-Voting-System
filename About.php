@@ -14,7 +14,7 @@
             <a href="index.php"><i class="fas fa-home"></i></a>
             <a href="Votes_results.php"><i class="fas fa-vote-yea"></i></a>
             <a href="About.php"><i class="fa fa-users"></i></a>
-            <a href="contact.php"><i class="fas fa-phone"></i></a>
+            <a href="Contact.php"><i class="fas fa-phone"></i></a>
             <a href="Registering.php" class="register-icon">Register</a>
         </div>
 
